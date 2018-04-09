@@ -1,4 +1,4 @@
-# [console](https://github.com/jsmini/console) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.5.0-orange.svg)](https://www.npmjs.com/package/@jsmini/console) [![Build Status](https://travis-ci.org/jsmini/console.svg?branch=master)](https://travis-ci.org/jsmini/console) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/console/blob/master/LICENSE)
+# [console](https://github.com/jsmini/console) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.6.0-orange.svg)](https://www.npmjs.com/package/@jsmini/console) [![Build Status](https://travis-ci.org/jsmini/console.svg?branch=master)](https://travis-ci.org/jsmini/console) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/console/blob/master/LICENSE)
 
 console.js is a small javascript library, fix console is undefined, like html5shim and reset.css.
 
