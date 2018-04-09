@@ -1,4 +1,4 @@
-# [console.js](https://github.com/yanhaijing/console.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.5.0-orange.svg)](https://www.npmjs.com/package/@yanhaijing/console_js) [![Build Status](https://travis-ci.org/yanhaijing/console.js.svg?branch=master)](https://travis-ci.org/yanhaijing/console.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/console.js/blob/master/LICENSE)
+# [console](https://github.com/jsmini/console) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.5.0-orange.svg)](https://www.npmjs.com/package/@jsmini/console) [![Build Status](https://travis-ci.org/jsmini/console.svg?branch=master)](https://travis-ci.org/jsmini/console) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/console/blob/master/LICENSE)
 
 console.js is a small javascript library, fix console is undefined, like html5shim and reset.css.
 
@@ -8,13 +8,13 @@ In ie6 ie7,console is undefined. In ie8 ie9, first open the developer tools befo
 Download and install through the npm
 
 ```bash
-$ npm install --save @yanhaijing/console_js
+$ npm install --save @jsmini/console
 ```
 
 If you are use webpack
 
 ```js
-import { polyfill } from '@yanhaijing/console_js';
+import { polyfill } from '@jsmini/console';
 
 polyfill(); // polyfill console undefined
 ```
@@ -22,7 +22,7 @@ polyfill(); // polyfill console undefined
 If you are use requirejs
 
 ```js
-requirejs(['node_modules/@yanhaijing/console_js/dist/index.aio.js'], function (console_js) {
+requirejs(['node_modules/@jsmini/console/dist/index.aio.js'], function (console_js) {
     var polyfill = console_js.polyfill;
 
     polyfill(); // polyfill console undefined
@@ -32,7 +32,7 @@ requirejs(['node_modules/@yanhaijing/console_js/dist/index.aio.js'], function (c
 If you are use browser
 
 ```html
-<script src="node_modules/@yanhaijing/console_js/dist/index.aio.js"></script>
+<script src="node_modules/@jsmini/console/dist/index.aio.js"></script>
 
 <script>
     var polyfill = console_js.polyfill;
@@ -42,7 +42,7 @@ If you are use browser
 ```
 
 ## Document
-[API](https://github.com/yanhaijing/console.js/blob/master/doc/api.md)
+[API](https://github.com/jsmini/console/blob/master/doc/api.md)
 
 ## Principle & Blog
 [use console.js](http://yanhaijing.com/js/2014/11/03/use-console.js/)
@@ -86,10 +86,10 @@ You may need to modify it as follows：
 - test/browser/index.html
 
 ## CHANGELOG
-[CHANGELOG.md](https://github.com/yanhaijing/console.js/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/console/blob/master/CHANGELOG.md)
 
 ## TODO
-[TODO.md](https://github.com/yanhaijing/console.js/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/console/blob/master/TODO.md)
 
 ## Who use
 
