@@ -24,6 +24,12 @@
   "bugs": {
     "url": "https://github.com/jsmini/console/issues"
   },
+  "keywords": [
+    "console",
+    "console.js",
+    "console-shim",
+    "console-polyfill"
+  ],
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-preset-env": "1.6.1",
