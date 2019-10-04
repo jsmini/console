@@ -1,14 +1,14 @@
 var expect = require('expect.js');
 
-var polyfill = require('../dist/index.js').polyfill;
-var safeExec = require('../dist/index.js').safeExec;
-var log = require('../dist/index.js').log;
-var info = require('../dist/index.js').info;
-var warn = require('../dist/index.js').warn;
-var error = require('../dist/index.js').error;
-var log1 = require('../dist/index.js').log1;
-var warn1 = require('../dist/index.js').warn1;
-var error1 = require('../dist/index.js').error1;
+var polyfill = require('../src/index.js').polyfill;
+var safeExec = require('../src/index.js').safeExec;
+var log = require('../src/index.js').log;
+var info = require('../src/index.js').info;
+var warn = require('../src/index.js').warn;
+var error = require('../src/index.js').error;
+var log1 = require('../src/index.js').log1;
+var warn1 = require('../src/index.js').warn1;
+var error1 = require('../src/index.js').error1;
 
 describe('单元测试', function() {
     this.timeout(1000);
