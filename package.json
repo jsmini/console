@@ -60,7 +60,6 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@jsmini/type": "^0.8.0",
     "@babel/runtime": "^7.1.2"
   },
   "files": [
