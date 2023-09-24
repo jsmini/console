@@ -1,9 +1,9 @@
 {
-    "name": "console",
-    "npmname": "@jsmini/console",
-    "umdname": "jsmini_console",
-    "username": "jsmini",
-    "type": "js",
-    "lang": "zh",
-    "version": "1.3.0"
+  "name": "console",
+  "npmname": "@jsmini/console",
+  "umdname": "jsmini_console",
+  "username": "jsmini",
+  "type": "js",
+  "lang": "zh",
+  "version": "1.3.0"
 }

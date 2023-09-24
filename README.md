@@ -1,17 +1,18 @@
 # [console](https://github.com/jsmini/console)
+
 [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/console/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/jsmini/console.svg?branch=master)](https://travis-ci.org/jsmini/console)
-[![Coveralls](https://img.shields.io/coveralls/jsmini/console.svg)](https://coveralls.io/github/jsmini/console)
-[![npm](https://img.shields.io/badge/npm-0.6.0-orange.svg)](https://www.npmjs.com/package/@jsmini/console)
+[![CI](https://github.com/jsmini/console/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jsmini/console/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/badge/npm-0.7.0-orange.svg)](https://www.npmjs.com/package/@jsmini/console)
 [![NPM downloads](http://img.shields.io/npm/dm/@jsmini/console.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/console)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/console.svg)](http://isitmaintained.com/project/jsmini/console "Percentage of issues still open")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/console.svg)](http://isitmaintained.com/project/jsmini/console 'Percentage of issues still open')
 
 console.js is a small javascript library, fix console is undefined, like html5shim and reset.css.
 
 In ie6 ie7,console is undefined. In ie8 ie9, first open the developer tools before, console is undefined.
 
 ## Guides
+
 Download and install through the npm
 
 ```bash
@@ -29,11 +30,14 @@ polyfill(); // polyfill console undefined
 If you are use requirejs
 
 ```js
-requirejs(['node_modules/@jsmini/console/dist/index.aio.js'], function (console_js) {
+requirejs(
+  ['node_modules/@jsmini/console/dist/index.aio.js'],
+  function (console_js) {
     var polyfill = console_js.polyfill;
 
     polyfill(); // polyfill console undefined
-})
+  },
+);
 ```
 
 If you are use browser
@@ -42,19 +46,22 @@ If you are use browser
 <script src="node_modules/@jsmini/console/dist/index.aio.js"></script>
 
 <script>
-    var polyfill = console_js.polyfill;
-    
-    polyfill(); // polyfill console undefined
+  var polyfill = console_js.polyfill;
+
+  polyfill(); // polyfill console undefined
 </script>
 ```
 
 ## Document
+
 [API](https://github.com/jsmini/console/blob/master/doc/api.md)
 
 ## Principle & Blog
+
 [use console.js](http://yanhaijing.com/js/2014/11/03/use-console.js/)
 
 ## Contribution
+
 The first run requires installation of dependencies
 
 ```bash
@@ -93,19 +100,23 @@ You may need to modify it as follows：
 - test/browser/index.html
 
 ## CHANGELOG
+
 [CHANGELOG.md](https://github.com/jsmini/console/blob/master/CHANGELOG.md)
 
 ## TODO
+
 [TODO.md](https://github.com/jsmini/console/blob/master/TODO.md)
 
 ## Who use
 
 ## Refrence
+
 - [MSDN](http://msdn.microsoft.com/en-us/library/ie/gg589530.aspx)
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Console)
 - [Firebug](http://getfirebug.com/wiki/index.php/Console_API)
 
 ## Related projects
+
 - [browser-shim](https://github.com/ishmaelthedestroyer/browser-shim)
 - [console-shim(liamnewmarch)](https://github.com/liamnewmarch/console-shim)
 - [console-shim(kayahr)](https://github.com/kayahr/console-shim)
